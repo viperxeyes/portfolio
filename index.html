@@ -1,0 +1,100 @@
+<html lang="en" style="scroll-behavior: smooth">
+  <!-- The head of the website -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dia Eldin - Portfolio</title>
+    <meta
+      name="description"
+      content="A personal portfolio  about Dia Eldin , A software Engineer , specialize in HTML - CSS - Javascript and Python"
+    />
+    <meta
+      name="keywords"
+      content="Dia Eldin , HTML , CSS ,Javascript , web development ,programming , python , C# , Rust , Go , React , Mobile App ,  desktop apps"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+
+  <!-- End of head -->
+
+  <!-- Body -->
+  <body>
+    <header class="header">
+      <a href="/" class="logo">Dia Eldin</a>
+      <nav class="navbar">
+        <a href="#" class="nav_link active" onclick="setActiveLink(this)"
+          >HOME</a
+        >
+        <a href="#skills" class="nav_link" onclick="setActiveLink(this)"
+          >SKILLS</a
+        >
+        <a href="#footer" class="nav_link" onclick="setActiveLink(this)"
+          >CONTACT</a
+        >
+      </nav>
+    </header>
+
+    <section class="home">
+      <div class="home_content">
+        <h1>Hi , I am Dia Eldin</h1>
+        <h3>Full stack software engineer</h3>
+        <p>
+          I like to explore life and make people lives easier by presenting
+          incredible technologies to the world.tinkering with computers and
+          electronics is my joy &#151; I &#10084; programming and web
+          development 😊
+        </p>
+        <div class="home_links">
+          <a href="#">Hire me </a>
+          <a href="#">Let's Talk</a>
+        </div>
+      </div>
+      <div class="home_imageFade"></div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2>SKILLS</h2>
+      <div class="card_container">
+        <div class="skill_card">
+          <div class="card_header">Programming</div>
+          <div class="card_icon"><i class="fa-brands fa-python"></i></div>
+          <div class="card_tech"><span>Tech</span><span>Python-C#</span></div>
+        </div>
+
+        <div class="skill_card">
+          <div class="card_header">Web Development</div>
+          <div class="card_icon"><i class="fa-solid fa-globe"></i></div>
+          <div class="card_tech"><span>Tech</span><span>HTML-CSS-JS</span></div>
+        </div>
+      </div>
+
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam maiores
+        quasi placeat voluptatum, fugit rem esse, dolorum repudiandae corporis
+        harum, velit numquam aliquam? Possimus, facilis laudantium. Assumenda
+        numquam commodi accusamus.
+      </p>
+    </section>
+
+    <footer class="footer" id="footer">
+      <div class="footer_Social">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+
+      <span
+        >Designed and built by
+        <strong style="color: #00abf0">Dia Eldin</strong> &copy; 2023</span
+      >
+    </footer>
+    <script src="functions.js"></script>
+  </body>
+
+  <!-- End of Body -->
+</html>
